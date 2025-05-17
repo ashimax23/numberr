@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;  /* Soft background color */
+  color: #333;  /* Text color */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #fff;  /* White background for container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff4081;  /* Pink color for title */
+}
+
+.info-text {
+  font-size: 1.2rem;
+  color: #4CAF50;  /* Green color for info */
+}
+
+.note-text {
+  font-size: 1.1rem;
+  color: #ff9800;  /* Orange color for note */
+}
+
+.get-pack-btn, .view-ad-btn {
+  background-color: #ff4081;  /* Pink button */
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.get-pack-btn:hover, .view-ad-btn:hover {
+  background-color: #e040fb;  /* Light purple on hover */
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #777;
+}
+
+.footer strong {
+  color: #ff4081;
+}
